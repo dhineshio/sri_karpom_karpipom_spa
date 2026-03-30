@@ -14,9 +14,9 @@ const NewsletterTwo = () => {
                 <div className="container">
                     <div className="flex md:flex-row flex-col justify-between items-center gap-10">
                         <div className="lg:max-w-[573px] max-w-[400px]">
-                            <SectionName className={"text-muted-foreground"}>Stay With Us</SectionName>
-                            <Title size={"3.5xl"} className={"mt-2.5 max-w-[410px]"}>The path to success starts with education</Title>
-                            <SectionDescription className={"mt-5"}>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat.</SectionDescription>
+                            <SectionName className={"text-muted-foreground"}>Join Us Today</SectionName>
+                            <Title size={"3.5xl"} className={"mt-2.5 max-w-[410px]"}>Give Your Child the Gift of Tamil</Title>
+                            <SectionDescription className={"mt-5"}>Enrol your child in Sri Karpom Karpippom and watch them grow in confidence, reading, and speaking — one Tamil lesson at a time.</SectionDescription>
                             <div className="mt-9">
                                 <Button variant="pill" className="bg-primary border-primary hover:text-primary-foreground" asChild>
                                     <Link to={"/about-us"} className="btn-rounded-full">Read More</Link>

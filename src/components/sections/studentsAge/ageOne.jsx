@@ -17,10 +17,10 @@ const AgeOne = () => {
 
                         <div>
                             <div className="lg:max-w-[460px]">
-                                <SectionName>Student knowledge</SectionName>
-                                <Title size={"3.5xl"}>Knowledge for All learn design Excellence for Everyone</Title>
+                                <SectionName>Who Can Join?</SectionName>
+                                <Title size={"3.5xl"}>Tamil Classes for Every Child, Every Age</Title>
                             </div>
-                            <SectionDescription className={'pt-5 pb-7.5'}>Lorem ipsum dolor sit amet consectetur adipiscing elit platea  the osr of a proin mollis pretium facilisi in, ligula volutpat </SectionDescription>
+                            <SectionDescription className={'pt-5 pb-7.5'}>Our structured Tamil program welcomes children aged 5–12. Whether your child is just starting or ready to advance, we have the right level for them.</SectionDescription>
                             <Button asChild variant="pill">
                                 <Link to={"/about-us"}>Learn More</Link>
                             </Button>
@@ -29,16 +29,15 @@ const AgeOne = () => {
 
                         <div className="relative flex justify-center flex-wrap sm:flex-nowrap lg:justify-between md:gap-7.5 sm:gap-4 gap-3">
                             <div className="mt-[110px] flex flex-col items-end md:gap-7.5 sm:gap-4 gap-3">
-                                <BigCard One={"1-2"} />
-                                <SmallCard className={"bg-primary"} age={"9-11"} />
+                                <BigCard age={"5-6"} />
+                                <SmallCard className={"bg-primary"} age={"7-8"} />
                             </div>
                             <div className="flex flex-col md:gap-7.5 sm:gap-4 gap-3">
-                                <SmallCard className={"bg-secondary"} age={"3-5"} />
-                                <SmallCard className={"bg-destructive"} age={"6-8"} />
-                                <SmallCard className={"bg-green"} age={"16-18"} />
+                                <SmallCard className={"bg-secondary"} age={"9-10"} />
+                                <SmallCard className={"bg-destructive"} age={"11-12"} />
                             </div>
-                            <div className="self-center ">
-                                <SmallCard className={"bg-primary"} age={"12-15"} />
+                            <div className="self-center">
+                                <SmallCard className={"bg-green"} age={"5-12"} />
                             </div>
                         </div>
 

@@ -26,7 +26,7 @@ const HomeOne = () => {
         <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
       </Helmet>
       <main>
-        <HeroOne />
+        <HeroOne />h
         {/* <SuccessProjectOne /> */}
         <AboutTwo isAboutpage={false} />
         {/* <Programs /> */}

@@ -18,7 +18,6 @@ const cardOneItems = [
 const CardOne = ({ data_target }) => {
     return (
         <div className={`grid lg:gap-7.5 gap-4 grid-cols-12 grid-rows-[277px] top-0 left-0 transition-all duration-500  ${(data_target === "education" || data_target === "coaching") ? "relative translate-y-0 visible opacity-100" : "absolute translate-y-10 invisible opacity-0"}`}>
-
             {cardOneItems.map(({ src, title, col }) => (
                 <div key={title} className={`${col} relative group/card`}>
                     <img src={src} alt={title} className="w-full h-full max-h-[300px] sm:max-h-full object-cover rounded-[10px]" />
@@ -31,7 +30,6 @@ const CardOne = ({ data_target }) => {
                     </div>
                 </div>
             ))}
-
         </div>
     )
 }

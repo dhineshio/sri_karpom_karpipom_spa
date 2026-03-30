@@ -19,7 +19,7 @@ const FooterTwo = () => {
                     <SlideUp delay={2}>
                         <Logo className="text-cream-foreground" />
                         <div className="mt-10">
-                            <p className=" text-cream-foreground opacity-80">Yes, there are many notable ma corporate the a  od businesses Informati worldwide</p>
+                            <p className=" text-cream-foreground opacity-80">Sri Karpom Karpippom — nurturing young minds through fun, structured online Tamil classes for children aged 5–12.</p>
                             <SocalIcons prentClass={"gap-5 lg:pt-7.5 pt-5"} className={"w-9 h-9 bg-[#FFFFFF1A] border-none hover:bg-green"} />
                         </div>
                     </SlideUp>
@@ -31,10 +31,11 @@ const FooterTwo = () => {
                         </div>
                         <ul className="flex flex-col lg:gap-[15px] gap-2.5 lg:pt-7.5 pt-5 min-w-[203px]">
                             <li><Link to="/about-us" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">About Us</Link></li>
-                            <li><Link to="/services" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Latest Service</Link></li>
-                            <li><Link to="/blog" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Latest Blog And News</Link></li>
-                            <li><Link to="/faq" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">FAQ</Link></li>
-                            <li><Link to="#" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Our Creative Team Member</Link></li>
+                            <li><Link to="/services" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Service</Link></li>
+                            <li><Link to="/contact-us" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Contact</Link></li>
+                            <li><Link to="/faq" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">FAQs</Link></li>
+                            <li><Link to="/privacy-policy" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Privacy Policy</Link></li>
+                            <li><Link to="/terms-and-conditions" className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground">Terms & Conditions</Link></li>
                         </ul>
                     </SlideUp>
 
@@ -46,13 +47,13 @@ const FooterTwo = () => {
 
                         <ul className="flex flex-col lg:gap-[15px] gap-2.5 lg:pt-7.5 pt-5">
                             <li className="text-cream-foreground flex gap-4">
-                                <FaLocationDot className='mt-1.5' /> <span className="max-w-[168px]">1179 KFC Road, Lisbon, Portugal</span>
+                                <FaLocationDot className='mt-1.5' /> <span className="max-w-[168px]">Online — Available Worldwide</span>
                             </li>
                             <li className="text-cream-foreground flex gap-4">
-                                <FaEnvelope className='mt-1.5' /> <Link to="#">sakib23@gmail.com</Link>
+                                <FaEnvelope className='mt-1.5' /> <Link to="#">srikarpomkarpippom@gmail.com</Link>
                             </li>
                             <li className="text-cream-foreground flex gap-4">
-                                <FaPhone className='mt-1.5' /> <Link to="#">012547892354</Link>
+                                <FaPhone className='mt-1.5' /> <Link to="#">+1 000 000 0000</Link>
                             </li>
                         </ul>
                     </SlideUp>

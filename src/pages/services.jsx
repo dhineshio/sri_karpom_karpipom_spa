@@ -4,6 +4,7 @@ import { ScrollRestoration } from 'react-router-dom'
 import PageTitle from '@/components/sections/pageTitle'
 import ServicesTwo from '@/components/sections/services/servicesTwo'
 import NewsletterTwo from '@/components/sections/newsletters/newsletterTwo'
+import ExtraCurricular from '@/components/sections/extraCurricular'
 
 const Services = () => {
   return (
@@ -14,7 +15,8 @@ const Services = () => {
       </Helmet>
       <main>
         <PageTitle pageName={"Services"} breadcrumbCurrent={"Services"} />
-        <ServicesTwo />
+        {/* <ServicesTwo /> */}
+        <ExtraCurricular/>
         <NewsletterTwo />
       </main>
       <ScrollRestoration/>

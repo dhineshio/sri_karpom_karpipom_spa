@@ -33,9 +33,9 @@ const MobileMenu = ({ isMobleMenuActive, setIsMobleMenuActive }) => {
                                 <li key={id} className="leading-[164%] relative w-full dropdown">
                                     <Link onClick={() => setDropdownActive(dropdownActive === id ? null : id)} to={path} className="font-jost py-2.5 border-b border-b-slate-300 text-[#385469] flex justify-between items-center">
                                         <span>{label}</span>
-                                        {dropDownMenu.length && <FaPlus />}
+                                        {dropDownMenu.length > 0 && <FaPlus />}
                                     </Link>
-                                    {dropDownMenu.length &&
+                                    {dropDownMenu.length > 0 &&
                                         <ul className={`min-w-56 w-full transition-all duration-500 ${dropdownActive === id ? "max-h-[600px] overflow-auto pt-3 no-scrollbar" : "max-h-0 overflow-hidden"}`}>
                                             {dropDownMenu.map(({ id, label, path }) => {
                                                 return (

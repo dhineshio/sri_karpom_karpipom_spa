@@ -3,24 +3,36 @@ export const menuList = [
         id: 1,
         path: "/",
         label: "Home",
-        dropDownMenu: false
+        dropDownMenu: []
     },
     {
         id: 2,
         path: "/about-us",
         label: "About Us",
-        dropDownMenu: false
+        dropDownMenu: []
     },
     {
         id: 3,
         path: "/services",
-        label: "Services",
-        dropDownMenu: false
+        label: "Courses",
+        dropDownMenu: []
+    },
+    {
+        id: 4,
+        path: "/portfolio",
+        label: "Gallery",
+        dropDownMenu: []
     },
     {
         id: 5,
+        path: "/faq",
+        label: "FAQs",
+        dropDownMenu: []
+    },
+    {
+        id: 6,
         path: "/contact-us",
         label: "Contact Us",
-        dropDownMenu: false
+        dropDownMenu: []
     },
 ]

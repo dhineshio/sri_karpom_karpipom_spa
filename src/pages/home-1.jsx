@@ -32,9 +32,6 @@ const HomeOne = () => {
         {/* <Programs /> */}
         <ExtraCurricular/>
         <Gallery />
-        {/* <ServicesOne /> */}
-        {/* <FaqComp /> */}
-        {/* <Teams /> */}
         <AgeOne />
         <Testimonial />
         {/* <NewsletterOne /> */}

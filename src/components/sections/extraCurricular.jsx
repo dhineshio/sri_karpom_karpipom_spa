@@ -68,7 +68,7 @@ const Card = ({ title, desc, src, icon, id }) => {
                     <h4><Link to="/service-details" className="lg:text-2xl text-xl font-semibold lg:leading-[140%] group-hover/card:text-destructive-foreground transition-all duration-500">{title}</Link></h4>
                     <p className="pt-2 flex-1">{desc}</p>
                     <div className="lg:pt-7.5 pt-5 flex justify-between items-center">
-                        <Link to="/service-details" className="flex gap-2 items-center">
+                        <Link to="#" className="flex gap-2 items-center">
                             <span className="group-hover/card:text-destructive-foreground transition-all duration-500">learn more</span>
                             <FaArrowRight className='text-destructive-foreground' />
                         </Link>

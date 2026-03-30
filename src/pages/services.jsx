@@ -10,8 +10,8 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template || Services</title>
-        <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
+        <title>Our Courses | Sri Karpom Karpippom</title>
+        <meta name="description" content="Explore our Tamil learning courses — Level 1 Foundation and Level 2 Progressive — designed for children aged 5–12 to build strong Tamil skills." />
       </Helmet>
       <main>
         <PageTitle pageName={"Services"} breadcrumbCurrent={"Services"} />

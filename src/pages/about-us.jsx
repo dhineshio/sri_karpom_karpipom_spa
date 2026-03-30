@@ -14,8 +14,8 @@ const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template || About-Us</title>
-        <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
+        <title>About Us | Sri Karpom Karpippom</title>
+        <meta name="description" content="Learn about Sri Karpom Karpippom — our mission to nurture young Tamil minds through structured, fun online classes for children aged 5–12." />
       </Helmet>
       <main>
         <PageTitle pageName={"About Us"} breadcrumbCurrent={"About Us"} />

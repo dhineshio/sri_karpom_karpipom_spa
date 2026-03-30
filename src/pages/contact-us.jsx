@@ -11,8 +11,8 @@ const ContactUs = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template  || Contact-Us</title>
-        <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
+        <title>Contact Us | Sri Karpom Karpippom</title>
+        <meta name="description" content="Get in touch with Sri Karpom Karpippom. We're happy to answer your questions and help enrol your child in our online Tamil classes." />
       </Helmet>
       <main>
         <PageTitle pageName={"Contact Us"} breadcrumbCurrent={"Contact Us"} />

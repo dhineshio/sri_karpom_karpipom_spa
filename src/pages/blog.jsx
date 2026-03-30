@@ -12,8 +12,8 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template  || Blog</title>
-        <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
+        <title>Blog | Sri Karpom Karpippom</title>
+        <meta name="description" content="Read tips, stories, and insights on teaching Tamil to children — from the team at Sri Karpom Karpippom." />
       </Helmet>
       <main>
         <PageTitle pageName={"Blog"} breadcrumbCurrent={"Blog"} />

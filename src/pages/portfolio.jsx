@@ -9,8 +9,8 @@ const Portfolio = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template || Portfolio</title>
-        <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
+        <title>Gallery | Sri Karpom Karpippom</title>
+        <meta name="description" content="Browse our gallery of Tamil learning moments — live classes, student activities, and highlights from Sri Karpom Karpippom." />
       </Helmet>
       <main>
         <PageTitle pageName={"Portfolio"} breadcrumbCurrent={"Portfolio"} />

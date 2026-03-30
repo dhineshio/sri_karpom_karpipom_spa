@@ -9,8 +9,8 @@ const Faq = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template || Faq</title>
-        <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
+        <title>FAQs | Sri Karpom Karpippom</title>
+        <meta name="description" content="Have questions about our Tamil classes? Find answers to frequently asked questions about enrolment, course levels, schedules, and more." />
       </Helmet>
       <main>
         <PageTitle pageName={"Faq's"} breadcrumbCurrent={"Faq's"} />

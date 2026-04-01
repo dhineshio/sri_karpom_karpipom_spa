@@ -33,7 +33,7 @@ const HomeOne = () => {
         <ExtraCurricular/>
         <Gallery />
         <AgeOne />
-        <Testimonial />
+        {/* <Testimonial /> */}
         {/* <NewsletterOne /> */}
         <NewsletterTwo/>
       </main>

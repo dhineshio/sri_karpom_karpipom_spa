@@ -21,7 +21,7 @@ const AboutUs = () => {
         <PageTitle pageName={"About Us"} breadcrumbCurrent={"About Us"} />
         <AboutTwo gridClass={"lg:grid-cols-2"} isAboutpage={true} />
         <FaqComp />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <NewsletterTwo />
       </main>
       <ScrollRestoration/>

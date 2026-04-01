@@ -25,7 +25,6 @@ const AboutTwo = () => {
                                 "Letter sound recognition & identification",
                                 "Spelling and vocabulary development",
                                 "Reading & passage practice",
-                                "Speaking & communication skills",
                                 "Age-appropriate curriculum (5–12 years)",
                                 "Live online classes with expert teachers",
                             ].map((item) => (

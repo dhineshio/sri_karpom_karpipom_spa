@@ -22,8 +22,8 @@ const HomeOne = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template || Home One</title>
-        <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
+        <title>Home | Sri Karpom Karpippom</title>
+        <meta name="description" content="Learn about Sri Karpom Karpippom — our mission to nurture young Tamil minds through structured, fun online classes for children aged 5–12." />
       </Helmet>
       <main>
         <HeroOne />h

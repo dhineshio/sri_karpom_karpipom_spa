@@ -26,7 +26,7 @@ const HomeOne = () => {
         <meta name="description" content="Learn about Sri Karpom Karpippom — our mission to nurture young Tamil minds through structured, fun online classes for children aged 5–12." />
       </Helmet>
       <main>
-        <HeroOne />h
+        <HeroOne />
         {/* <SuccessProjectOne /> */}
         <AboutTwo isAboutpage={false} />
         {/* <Programs /> */}

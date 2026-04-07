@@ -34,7 +34,7 @@ const AboutTwo = () => {
                             ))}
                         </ul>
                         <SlideUp delay={3}>
-                            <div className="flex gap-8 mt-10">
+                            <div className="flex gap-4 mt-10">
                                 <Button asChild size="lg" variant="pill" className="bg-primary border-primary hover:text-primary-foreground">
                                     <Link to={"/about-us"}>Read More</Link>
                                 </Button>
@@ -54,7 +54,7 @@ const AboutTwo = () => {
                                 </div>
                             </div>
                             <SlideUp>
-                                <img src={about_bg_2} alt="img-1" />
+                                <img src={about_bg_2} alt="img-1" className='hidden md:block' />
                             </SlideUp>
 
                         </div>

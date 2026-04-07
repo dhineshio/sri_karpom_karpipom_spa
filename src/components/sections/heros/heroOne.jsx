@@ -21,7 +21,7 @@ const HeroOne = () => {
             <span className="font-bold text-destructive-foreground"> தமிழ்</span><span className="font-bold"><br />Online Today</span>
           </Title>
 
-          <div className="flex absolute right-[87px] top-14 animate-skw">
+          <div className="hidden md:flex absolute right-[87px] top-14 animate-skw">
             <img src={shap} alt="shap-2" className="w-7.5 h-12.5 relative top-9" />
             <img src={shap} alt="shap-1" />
             <img src={shap} alt="shap-2" className="w-5 h-8 -mt-7" />
